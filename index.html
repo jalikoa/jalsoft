@@ -13,6 +13,22 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
 </head>
+<style>
+    .jalikoa-picha {
+        max-width: 15px;
+        max-height: 150px;
+        z-index:999;
+        position:absolute;
+        top:80px;
+        right:150px;
+    }
+    .jalikoa-picha img {
+        width:150px;
+        height:150px;
+        border-radius:50%;
+        object-fit: cover;
+    }
+</style>
 
 <body>
     <div id="mobile-menu-open" class="shadow-large">
@@ -46,15 +62,19 @@
     </header>
     <!-- End header -->
 
-    <div id="lead">
+    <div id="lead" style="position:relative;">
         <div id="lead-content">
             <h1>Calvince Owino</h1>
             <h2>Software Engineer</h2>
-            <a href="#" class="btn-rounded-white">Download Resume</a>
+            <a href="#" class="btn-rounded-white fa-beat">Download Resume</a>
         </div>
         <!-- End #lead-content -->
 
-        <div id="lead-overlay"></div>
+        <div id="lead-overlay">
+            <div class="jalikoa-picha">
+                <img src="./ceojalsoft.jpg" alt="">
+            </div>
+        </div>
 
         <div id="lead-down">
             <span>
@@ -69,12 +89,12 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="heading">About Me</h2>
+                    <h2 class="heading" style="color:green;">About Me</h2>
                 </div>
                 <div class="col-md-8">
                     <p>
                       Hello! I am Calvince Owino, a passionate and experienced software engineer with a strong background in designing, developing, and implementing innovative software solutions. I have a year of professional experience in the tech industry, and I thrive on solving complex problems and delivering high-quality, scalable softwares.
-                    </>                    </p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -82,20 +102,20 @@
     <!-- End #about -->
 
     <div id="experience" class="background-alt">
-        <h2 class="heading">Experience</h2>
+        <h2 class="heading" style="color:green;">Experience</h2>
         <div id="experience-timeline">
             <div data-date="September 2022 – September 2024">
-                <h3>Freelance</h3>
+                <h3 class="heading" style="color:rgb(1, 5, 255);">Freelance</h3>
                 <h4>Tasks management inventory</h4>
                 <p>
-                  <b>Project Overview:</b>The project involved the development of a sophisticated web-based inventory management system tailored specifically for tasks.io, a leading task management platform. tasks.io faced challenges in effectively managing their inventory across multiple locations, resulting in inefficiencies, inaccuracies, and operational bottlenecks. To address these challenges, the objective was to create a robust solution that would streamline inventory tracking and management processes, providing tasks.io with real-time visibility into their inventory levels, optimizing stock control, and improving overall operational efficiency. 
+                  <b class="btn">Project Overview:</b>The project involved the development of a sophisticated web-based inventory management system tailored specifically for tasks.io, a leading task management platform. tasks.io faced challenges in effectively managing their inventory across multiple locations, resulting in inefficiencies, inaccuracies, and operational bottlenecks. To address these challenges, the objective was to create a robust solution that would streamline inventory tracking and management processes, providing tasks.io with real-time visibility into their inventory levels, optimizing stock control, and improving overall operational efficiency. 
                 </p>
             </div>
 
     <!-- End #experience -->
 
     <div id="education">
-        <h2 class="heading">Education</h2>
+        <h2 class="heading" style="color:green;">Education</h2>
         <div class="education-block">
             <h3>Harvard University</h3>
             <span class="education-date">Sept 2016 - Sept 2017</span>
@@ -110,13 +130,13 @@
         <!-- End .education-block -->
 
         <div class="education-block">
-            <h3>Tom Mboya Boys High School</h3>
-            <span class="education-date">Sept 2016 - Sept 2017</span>
+            <h3 style="color:rgb(0, 47, 255);">Tom Mboya Boys High School</h3>
+            <span class="education-date">Jan 2020 - Nov 2023</span>
             <h4>Secondary school</h4>
             <ul>
                 <li>
-           Overview<br>I completed my secondary education at Tom Mboya Boys High School, a well-regarded institution known for its commitment to academic excellence and holistic student development.<br><br> During my time here, I not only excelled academically but also actively participated in various extracurricular activities that enriched my educational experience.Academic AchievementsStrong Academic Record: Maintained a high GPA throughout my time at the school, consistently achieving top marks in key subjects.Examination Success: Excelled in national exams, securing top 5% in the country.<br><br><br>Key Subjects were Mathematics: Advanced understanding of mathematical concepts, including calculus, algebra, and geometry.<br>Sciences: Strong foundation in Physics, Chemistry, and Biology, with practical laboratory experience.<br>
-                  Languages: Proficient in  English with strong skills in both written and oral communication.<br>Humanities: In-depth study of Geography fostering a well-rounded educational background.<br><br>Extracurricular Activities <br><br>Science Club: Active member and participant in science fairs and competitions, developing innovative projects and experiments.<br><br>Debate Team: Competed in inter-school debate competitions, enhancing my public speaking and critical thinking skills.<br><br>Sports: Participated in basketball representing the school in regional tournaments and fostering teamwork and leadership abilities.<br><br>Student Leadership: Served as academic prefect demonstrating responsibility and organizational skills.<br><br>Skills and Competencies<br><br>Time Management: Developed excellent time management skills, balancing academic workload with extracurricular commitments.<br><br>Collaboration: Worked effectively in team settings, whether in group projects, sports teams, or clubs.<br><br>Problem-Solving: Enhanced problem-solving abilities through rigorous academic challenges and practical experiments.<br><br>Leadership: Demonstrated leadership qualities through active participation in student governance and leading team activities.</li>
+           Overview<br>I completed my secondary education at Tom Mboya Boys High School,prestigious boy's school in Kaswanga Rusinga, a well-regarded institution known for its commitment to academic excellence and holistic student development.<br><br> During my time here, I not only excelled academically but also actively participated in various extracurricular activities that enriched my educational experience.<br><br><h3>Academic Achievements</h3><br><br>Strong Academic Record: Maintained a high GPA throughout my time at the school, consistently achieving top marks in key subjects.Examination Success: Excelled in national exams, securing top 5% in the country.<br><br><br>Key Subjects were Mathematics: Advanced understanding of mathematical concepts, including calculus,matrix,algebra, and geometry.<br><br>Sciences: Strong foundation in Physics, Chemistry, and Biology, with practical laboratory experience.<br><br>
+                  Languages: Proficient in  English and Kiswahili,that I was taught by a <b style="color:rgb(39,10,102);">senior teacher Mr Igongo</b>,with strong skills in both written and oral communication.<br><br>Humanities: In-depth study of Geography fostering a well-rounded educational background.<br><br>Extracurricular Activities <br><br>Science Club: Active member and participant in science fairs and competitions, developing innovative projects and experiments.<br><br>Debate Team: Competed in inter-school debate competitions, enhancing my public speaking and critical thinking skills.<br><br>Student Leadership: Served as academic prefect demonstrating responsibility and organizational skills.<br><br>Skills and Competencies<br><br>Time Management: Developed excellent time management skills, balancing academic workload with extracurricular commitments.<br><br>Collaboration: Worked effectively in team settings, whether in group projects, sports teams, or clubs.<br><br>Problem-Solving: Enhanced problem-solving abilities through rigorous academic challenges and practical experiments.<br><br>Leadership: Demonstrated leadership qualities through active participation in student governance and leading team activities and served the school as a <strong>Dedicated academic secretary</strong>.</li>
 
             </ul>
         </div>
@@ -130,7 +150,7 @@
             <div class="row">
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img style="max-width:450px;" src="images/Screenshot (14).png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -152,7 +172,7 @@
 
                 <div class="project shadow-large">
                     <div class="project-image">
-                        <img src="images/project.jpg" />
+                        <img style="max-width:300px;" src="./images/Screenshot (14).png" />
                     </div>
                     <!-- End .project-image -->
                     <div class="project-info">
@@ -191,7 +211,7 @@
     <div id="contact">
         <h2>Get in Touch</h2>
         <div id="contact-form">
-            <form method="POST" action="https://formspree.io/email@email.com">
+            <form method="POST" action="">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
@@ -218,7 +238,7 @@
                 <div class="col-sm-5 social">
                     <ul>
                         <li>
-                            <a href="https://github.com/t313machus" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                            <a href="https://github.com/jalikoa" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a href="https://www.linkedin.com/in/jalikoa-calvo-007757315" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
